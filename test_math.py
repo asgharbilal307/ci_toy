@@ -6,4 +6,4 @@ def test_add():
     assert add(2, 3) == 5
 
 def test_add_fail():
-    assert add(2, 2) == 5   # intentionally wrong -- will fail first
+    assert add(2, 2) == 4   # intentionally wrong -- will fail first
